@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "334832513181",
+    "project_id": "openda-747a9",
+    "storage_bucket": "openda-747a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334832513181:android:c04c5233869587423e6474",
+        "android_client_info": {
+          "package_name": "com.example.openday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3LFyFlAlo9gt5uE5-2YYDaOpbNwebGrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
