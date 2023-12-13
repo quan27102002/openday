@@ -3,7 +3,6 @@ import 'package:openday/screen/led.dart';
 
 class Infomation extends StatefulWidget {
   const Infomation({super.key});
-
   @override
   State<Infomation> createState() => _InfomationState();
 }
@@ -38,7 +37,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '1/led1',
                           path2: '1/led2',
                           path3: '1/led3',
@@ -54,7 +53,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '2/led1',
                           path2: '2/led2',
                           path3: '2/led3',
@@ -76,7 +75,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '3/led1',
                           path2: '3/led2',
                           path3: '3/led3',
@@ -93,7 +92,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '4/led1',
                           path2: '4/led2',
                           path3: '4/led3',
@@ -115,7 +114,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '5/led1',
                           path2: '5/led2',
                           path3: '5/led3',
@@ -132,7 +131,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '6/led1',
                           path2: '6/led2',
                           path3: '6/led3',
@@ -154,7 +153,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '7/led1',
                           path2: '7/led2',
                           path3: '7/led3',
@@ -171,7 +170,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '8/led1',
                           path2: '8/led2',
                           path3: '8/led3',
@@ -193,7 +192,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '9/led1',
                           path2: '9/led2',
                           path3: '9/led3',
@@ -210,7 +209,7 @@ class _InfomationState extends State<Infomation> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => const HomePage(
                           path1: '10/led1',
                           path2: '10/led2',
                           path3: '10/led3',
