@@ -54,16 +54,18 @@ class _SettingState extends State<Setting> {
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Chọn mức'),
-          content: Column(
-            children: [
-              _buildLevelButton(1),
-              _buildLevelButton(2),
-              _buildLevelButton(3),
-              _buildLevelButton(4),
-              _buildLevelButton(5),
-            ],
+        return Container(
+          child: AlertDialog(
+            title: Text('Chọn mức'),
+            content: Column(
+              children: [
+                _buildLevelButton(1),
+                _buildLevelButton(2),
+                _buildLevelButton(3),
+                _buildLevelButton(4),
+                _buildLevelButton(5),
+              ],
+            ),
           ),
         );
       },
